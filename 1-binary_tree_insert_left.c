@@ -3,6 +3,7 @@
  * binary_tree_insert_left- inserta un nodo.
  * @value: is the value
  * @parent: is the parent.
+ * Return: new nodo
 */
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 {
