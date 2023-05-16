@@ -1,11 +1,4 @@
-#include <stddef.h>
-
-typedef struct binary_tree_s {
-    int n;
-    struct binary_tree_s *left;
-    struct binary_tree_s *right;
-} binary_tree_t;
-
+#include 'binary_tree.h'
 size_t binary_tree_height(const binary_tree_t *tree)
 {
     size_t altura_izquierda;
