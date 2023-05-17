@@ -2,9 +2,8 @@
 /**
  * binary_tree_insert_right- this function inserta a nodo at the right
  * @parent: This is the parent
- * @alue: This is the value
+ * @value: This is the value
  * Return: New_nodo
- * 
 */
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 {
